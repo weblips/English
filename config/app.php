@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'ru',
 
     /*
     |--------------------------------------------------------------------------
@@ -91,7 +91,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'ru',
 
     /*
     |--------------------------------------------------------------------------
@@ -167,7 +167,8 @@ return [
         /*
          * Package Service Providers...
          */
-
+        TCG\Voyager\VoyagerServiceProvider::class,
+	    Intervention\Image\ImageServiceProvider::class,
         /*
          * Application Service Providers...
          */
